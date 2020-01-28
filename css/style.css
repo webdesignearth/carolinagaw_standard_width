@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Raleway';
+    font-family: 'Rubik';
+}
+
+@media only screen and (min-width:577px) {  
+
+.bg {
+    max-width: 88% !important;
+    height: 2034px;
+    background-image: url(../img/bg.png);
+    background-size: 100% 100%;
+}
+}
+.banner {
+    margin-top: 370px;
+    letter-spacing: 1px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    }
+.banner h3 {
+    font-size: 28px;
+    color: #fff !important;
+    margin-left: 125px;
+    line-height: 1!important;
+}
+.past {
+    color: #65c1ae;
+}
+.business {
+    width: 565px;
+    color: #fff !important;
+    margin: 0 auto;
+    text-align: center;
+}
+.business h3 {
+    margin-top: 290px;
+    font-family: 'Raleway';
+    font-size: 30px;
+    text-align: center;
+    line-height: 2 !important;
+}
+.business h4 {
+    font-size: 20px;
+    font-family: 'Rubik';
+}
+
+
+
+@media only screen and (max-width:992px){
+    
+ .bg {
+    max-width: 100% !important;
+    height: 1500px !important;
+}
+    .banner {
+    margin-top: 258px !important;
+}
+    .banner h3 {
+    font-size: 25px;
+    margin-left: 10%;
+    }
+.business h3 {
+    margin-top: 195px;
+}
+    
+}
+
+@media only screen and (max-width:768px){
+    .bgm {
+        max-width: 100% !important;
+        }
+    .banner {
+    margin-top: 375px;
+    letter-spacing: 1px;
+    }
+    .banner h3 {
+    color: #fff !important;
+    margin-left: 70px;
+    font-size: 25px;
+    line-height: 1 !important;
+}
+    .business {
+        width: 420px;
+    }
+            
+    .business h3 {
+    font-size: 25px;
+    margin-top: 320px;
+}
+    .business h4 {
+    font-size: 15px;
+}   
+    
+}
+
+@media only screen and (max-width:767.98px) {    
+      .bgm {
+        max-width: 100% !important;
+        height: 1400px;
+        background-size: 100% 100%;
+    }
+    .banner {
+        margin-top: 255px;
+}
+    .banner h3{
+        margin-left: 50px !important;
+        font-size: 20px;
+        line-height: .9 !important;
+
+    }
+    .business{
+        width: 400px;
+    }
+    .business h3 {
+        font-size: 25px;
+        margin-top: 188px;
+    }
+    .business h4 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:576.98px) {    
+      .bg {
+        max-width: 100% !important;
+        height: 2000px;
+        background-image: url(../img/mobile.png);
+        background-size: 100% 100%;
+    }
+    .banner {
+        margin-top: 205px !important;
+}
+    .banner h3{
+        margin-left: 0px !important;
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .business{
+        width: 220px;        
+    }
+    .business h3 {
+        font-size: 23px;
+        margin-top: 250px;
+    }
+    .business h4 {
+        font-size: 15px;
+    }
+}
